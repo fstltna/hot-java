@@ -1,5 +1,5 @@
-name: hot-java
-title: Hot Java
+name:  hot-java
+title:  Hot Java
 version: "1.0"
 summary:  Windows version of Hot Java
 description: |
@@ -24,7 +24,7 @@ apps:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
-      RUN_EXE: "C:/Program\ Files\ \(x86\)/ToomkyGames.com/Hot\ Java/HotJava.ex"
+      RUN_EXE: "C:/Program Files (x86)/ToomkyGames.com/Hot Java/HotJava.exe"
       INSTALL_EXE: "$SNAP/HotJavaSetup.exe"
       #INSTALL_FLAGS: "/S"
     plugs:
